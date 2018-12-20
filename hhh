@@ -1,0 +1,84 @@
+ 1237  mv ../complier\ i2c\ driver\ for\ centos/ ./
+ 1238  mv ../ipmi ./
+ 1241  mv complier\ i2c\ driver\ for_centos_complier_i2c_driver_for_centos
+ 1242  mv complier\ i2c\ driver\ for\ centos/ for_centos_complier_i2c_driver_for_centos
+ 1428  mv customer image
+ 1477  mv prod_test.img.gz  aewin_image/
+ 1538  mv ../3242V036.img  ./
+ 1564  mv ./config.txt  ~/work/pi/SMG01/
+ 1614  mv ~/Downloads/2018-11-13-raspbian-stretch-lite.zip  ./
+ 1694  mvNCCompile -s 12  ./frozen_model_inception_resnet_v2.pb -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions
+ 1818  mvNCCheck 
+ 1829  mvNCCompile -s 12  ./frozen_model_inception_resnet_v2.pb -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions
+ 1830  mvNCCheck
+ 1834  mvNCCompile -s 12  ./frozen_model_inception_resnet_v2.pb -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions
+ 1862  gedit  /usr/local/bin/mvNCCheck 
+ 1869  mvNCCheck ./frozen_model_inception_resnet_v2.pb -i ./stest.jpg -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions
+ 1896  mvNCCompile -s 12  ./frozen_model_inception_resnet_v2_1218.pb   -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions
+ 1897  mvNCCheck -s 12  ./frozen_model_inception_resnet_v2_1218.pb   -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions
+ 1921  mvNCCheck ./frozen_model_inception_resnet_v2.pb -i ./stest.jpg  -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions
+ 1922  mvNCCheck ./frozen_model_inception_resnet_v2.pb -i ./stest200.jpg  -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions
+ 1923  mvNCCheck ./frozen_model_inception_resnet_v2.pb -i ./stest299.jpg  -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions
+ 1924  grep -rin "Expected"/usr/local/lib/python3.5/dist-packages/mvnc/mvncapi.py
+ 1925  grep -rin "Expected" /usr/local/lib/python3.5/dist-packages/mvnc/mvncapi.py
+ 1926  grep -rin "DeprecationWarning:" /usr/local/lib/python3.5/dist-packages/mvnc/mvncapi.py
+ 1927  grep -rin "DeprecationWarning" /usr/local/lib/python3.5/dist-packages/mvnc/mvncapi.py
+ 1928  gedit /usr/local/lib/python3.5/dist-packages/mvnc/mvncapi.py
+ 1929  gedit /usr/local/lib/python3.5/dist-packages/mvnc/mvncapi.py &
+ 1930  locate mvNCCheck 
+ 1931  gedit /usr/local/bin/mvNCCheck &
+ 1932  mvNCCheck ./frozen_model_inception_resnet_v2.pb -i ./stest200.jpg  -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions
+ 1938  mvNCCheck ./frozen_model_inception_resnet_v2.pb -i ./stest200.jpg  -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions
+ 1942  mvNCCheck ./frozen_model_inception_resnet_v2.pb -i ./stest200.jpg  -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions
+ 1943  mvNCProfile 
+ 1944  mvNCProfile ./frozen_model_inception_resnet_v2.pb -i ./stest200.jpg  -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions
+ 1945  mvNCProfile ./frozen_model_inception_resnet_v2.pb   -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions
+ 1947  mvNCCheck ./frozen_model_inception_resnet_v2.pb -i ./stest200.jpg  -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions
+ 1948  mvNCCheck ./frozen_model_inception_resnet_v2.pb -i ./stest200.jpg  -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions > ./hhh
+ 1950  mvNCCheck ./frozen_model_inception_resnet_v2.pb -i ./stest200.jpg  -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions > ./hhh
+ 1960  sudo vim /usr/local/bin/mvNCCheck 
+ 1961  sudo gedit vim /usr/local/bin/mvNCCheck 
+ 1962  sudo  cp  /usr/local/bin/mvNCCheck  ./mvNCCheck_ori
+ 1963  sudo gedit  /usr/local/bin/mvNCCheck 
+ 1965  mvNCCheck ./frozen_model_inception_resnet_v2.pb -i ./stest200.jpg  -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions > ./hhh
+ 1966  mvNCCheck ./frozen_model_inception_resnet_v2.pb -i ./stest200.jpg  -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions 
+ 1967  sudo gedit  /usr/local/bin/mvNCCheck 
+ 1968  mvNCCheck ./frozen_model_inception_resnet_v2.pb -i ./stest200.jpg  -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions > ./hhh
+ 1969  sudo gedit  /usr/local/bin/mvNCCheck 
+ 1976  mvNCCheck ./frozen_model_inception_resnet_v2.pb -i ./stest200.jpg  -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions > ./hhh
+ 1979  mvNCCheck ./frozen_model_inception_resnet_v2.pb -i ./stest200.jpg  -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions > ./hhh
+ 1980  sudo gedit  /usr/local/bin/mvNCCheck 
+ 1983  history  |grep mvNCCompile
+ 1991  cd /usr/local/lib/python3.5/dist-packages/mvnc/
+ 2006  history |grep mvNCCompile
+ 2007  cat log  |grep mvNCC
+ 2008  cat log  |grep mvNCC > ./log 
+ 2010  mv log  use_command
+ 2013  mvNCCompile
+ 2014  mvNCCheck -s 12 -w frozen_model_inception_resnet_v2.pb  -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions  -is 299 299    -o resnetv2299graph
+ 2015  mvNCCompile -s 12 -w frozen_model_inception_resnet_v2.pb  -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions  -is 299 299    -o resnetv2299graph
+ 2016  mvNCCompile ./frozen_model_inception_resnet_v2  -s 12  -in Placeholder_only  -on InceptionResnetV2/Logits/Predictions -is 299 299  -o resnetv2.graph -ec
+ 2017  mvNCCompile ./frozen_model_inception_resnet_v2  -s 12  -in=Placeholder_only  -on=InceptionResnetV2/Logits/Predictions -is 299 299  -o resnetv2ec.graph -ec
+ 2018  mvNCCompile ./frozen_model_inception_resnet_v2_1218.pb  -s 12  -in=Placeholder_only  -on=InceptionResnetV2/Logits/Predictions -is 299 299  -o resnetv2ec.graph -ec
+ 2020  mvNCCompile ./frozen_model_inception_resnet_v2_1218.pb  -s 12  -in=Placeholder_only  -on=InceptionResnetV2/Logits/Predictions -is 299 299  -o resnetv2.graph 
+ 2023  mvNCCheck ./resnetv2ec.graph   -i 1.jpg -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions
+ 2024  mvNCCheck ./frozen_model_inception_resnet_v2.pb   -i 1.jpg -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions
+ 2026  mvNCCheck ./frozen_model_inception_resnet_v2.pb   -i n.jpg -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions
+ 2027  mvNCCheck ./frozen_model_inception_resnet_v2.pb   -i n.jpg -in=Placeholder_only -on=conv1
+ 2028  mvNCCheck ./frozen_model_inception_resnet_v2.pb   -i n.jpg -in=Placeholder_only -on conv1
+ 2029  mvNCCheck ./frozen_model_inception_resnet_v2.pb   -i n.jpg -inPlaceholder_only -on conv1
+ 2030  mvNCCheck ./frozen_model_inception_resnet_v2.pb   -i n.jpg -in Placeholder_only -on conv1
+ 2040  mvNCProfile 
+ 2041  mvNCProfile ./frozen_model_inception_resnet_v2.pb -i 1.jpg -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions
+ 2042  mvNCProfile ./frozen_model_inception_resnet_v2.pb -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions
+ 2043  mv use_command  uuu
+ 2045  mvNCCheck ./frozen_model_inception_resnet_v2_1218.pb  -i 1.jpg -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions
+ 2046  mvNCCheck ./frozen_model_inception_resnet_v2_1218.pb  -i stest200.jpg -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions
+ 2047  mvNCCheck ./frozen_model_inception_resnet_v2_1218.pb  -i ntest.jpg -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions
+ 2048  mvNCProfile ./frozen_model_inception_resnet_v2_1218.pb -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions > ./pfff
+ 2052  mvNCCompile ./frozen_model_inception_resnet_v2_1218.pb  -s 12  -in=Placeholder_only  -on=InceptionResnetV2/Logits/Predictions -is 299 299  -o resnetv2.graph  > ./ccc
+ 2069  mvNCCompile  ./frozen_model_inception_resnet_v2_1218.pb   -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions -o ./resnetv21219.graph
+ 2071  mvNCCompile  ./frozen_model_inception_resnet_v2_1218.pb   -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions -o ./resnetv212192.graph -is 299 299
+ 2076  mvNCCheck ./frozen_model_inception_resnet_v2.pb  -in=Placeholder_only -on=InceptionResnetV2/Logits/Predictions
+ 2079  history |grep mv
+ 2080  history |grep mv > ./hhh 
